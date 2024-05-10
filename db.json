@@ -1,0 +1,13 @@
+{
+    "noticias": [
+        {
+            "titulo": "Titulo 1 " ,
+            "descricao": "Descricao 1"
+        },
+        {
+            "titulo": "Titulo 2" ,
+            "descricao": "Descricao 2"
+        }
+    ]
+  }
+  

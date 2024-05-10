@@ -18,3 +18,9 @@ For example, to install a Javascript dependency and save that information to `pa
 
 If you want to be on a shell for one of the Docker services, you can do something like:
 `docker-compose run --rm frontend bash`
+
+## Inicie o servidor JSON:
+
+Inicie o servidor json usando o arquivo db.json:
+
+`json-server --watch db.json --port 3001`
