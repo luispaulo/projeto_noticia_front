@@ -1,9 +1,41 @@
-.App {
-    text-align: center;
+body {
+    background-color: #bbd0f3; 
   }
   
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
+  .container {
+    display: flex;
+  }
   
+  .left-column {
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10px;
+  }
+
+  .custom-input {
+    width: 300px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+  }
+  
+  .custom-button {
+    background-color: #5d9dd1; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
