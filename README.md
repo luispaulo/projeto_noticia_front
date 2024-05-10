@@ -1,6 +1,6 @@
 # PROJETO PESQUISA CEP- REACT
 
-This is a set up so that we can easily create apps that use Django on the backend (and take advantage of the amazing admin UI) and React (set up with [`create-react-app`](https://npm.im/create-react-app)) for the front end application.
+Detalhes de como subir o projeto com Docker.
 
 ## Running
 
@@ -24,3 +24,8 @@ If you want to be on a shell for one of the Docker services, you can do somethin
 Inicie o servidor json usando o arquivo db.json:
 
 `json-server --watch db.json --port 3001`
+
+Acessando endpoint de noticia no json-server:
+
+`http://localhost:3001/noticias`
+
